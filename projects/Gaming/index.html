@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Gamer | Landing Page</title>
+    <style>
+        /* Modern Gaming Aesthetic */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0b0d; /* Deep Black */
+            color: white;
+        }
+
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 2px solid #7000ff; /* Neon Purple Accent */
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #7000ff;
+        }
+
+        .hero {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px #7000ff;
+        }
+
+        .btn {
+            background-color: #7000ff;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #9146ff;
+            box-shadow: 0 0 20px #7000ff;
+        }
+
+        .content {
+            padding: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1a1a1e;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            text-align: center;
+        }
+
+        .card h3 { color: #7000ff; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">GAMER_ZONE</div>
+        <nav>
+            <a href="#" style="color:white; text-decoration:none; margin-left:20px;">Home</a>
+            <a href="#" style="color:white; text-decoration:none; margin-left:20px;">Streams</a>
+            <a href="#" style="color:white; text-decoration:none; margin-left:20px;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>LEVEL UP YOUR GAME</h1>
+        <p>Streaming daily at 8 PM EST</p><br>
+        <a href="#" class="btn">WATCH LIVE NOW</a>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <h3>Latest Highlights</h3>
+            <p>Check out my insane 1v5 clutch from last night's tournament.</p>
+        </div>
+        <div class="card">
+            <h3>Gaming Setup</h3>
+            <p>RTX 4090 | 32GB RAM | 240Hz Monitor</p>
+        </div>
+        <div class="card">
+            <h3>Join the Discord</h3>
+            <p>Get notified every time I go live and join the community!</p>
+        </div>
+    </section>
+
+</body>
+</html>
